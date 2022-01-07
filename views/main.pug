@@ -1,0 +1,20 @@
+html(lang="en")
+  head
+    title Node js Pug
+    meta(charset="utf-8")
+  body
+    div
+      each dataSide, index in data
+        h3 #{index}
+
+        h4 Tasks
+        ol
+          each task, tind in dataSide.Tasks
+            li  #{task.task} 
+              b #{task.done}
+
+        h4 Links
+        ul
+          each link, tind in dataSide.Links
+            li
+              a(href=link.url) #{link.name} 

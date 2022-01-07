@@ -1,0 +1,41 @@
+{
+	"Client": {
+		"Links": [],
+		"Tasks": [
+			{ "task": "Create the project", "done": true },
+			{ "task": "Link to server" },
+			{ "task": "Create css - preproccessors" },
+			{ "task": "Create test form" },
+			{ "task": "Collections page" },
+			{ "task": "Form for comment" },
+			{ "task": "Admin panel" }
+		]
+	},
+	"Server": {
+		"Links": [],
+		"Tasks": [
+			{ "task": "Create the project", "done": true },
+			{ "task": "Mongodb", "done": true },
+			{ "task": "Auth with tokens" },
+			{ "task": "Admin panel", "list": [
+				"Create collections",
+				"Add mods",
+				"Remove mods",
+				"Change description",
+				"Change name",
+				"Change version"
+			]},
+			{ "task": "Admin can create new collection" },
+			{ "task": "List of mods for assemblies, version, info" },
+			{ "task": "Comments and offers for mods" }
+		]
+	},
+	"Launcher": {
+		"Links": [
+			{ "name": "Youtube", "url": "https://www.youtube.com/watch?v=nF3nvrNZSh0" },
+			{ "name": "Youtube", "url": "https://www.youtube.com/results?search_query=how+to+make+a+custom+minecraft+launcher" },
+			{ "name": "SpigotMC", "url": "https://www.spigotmc.org/threads/creating-custom-launcher.329339/" }
+		],
+		"Tasks": []
+	}
+}
